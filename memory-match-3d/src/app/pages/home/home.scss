@@ -1,0 +1,42 @@
+@import '../../../styles/variables';
+
+h2 {
+    color: $color-white;
+   // text-align: center;
+}
+
+button {
+    color: $color-white;
+    text-align: center;
+    width: 20%;
+    background-color: $color-bg;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.main {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100vh;
+//   background: linear-gradient(to right, #1e3c72, #2a5298);
+//   color: white;
+
+//   button {
+//     margin-top: 20px;
+//     padding: 10px 20px;
+//     font-size: 18px;
+//     cursor: pointer;
+//   }
+}
