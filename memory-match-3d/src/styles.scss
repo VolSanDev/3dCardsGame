@@ -1,7 +1,9 @@
 @import 'styles/variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
 
 body {
     background-color: $color-bg;
+    font-family: $font-main;
 }
 
 
