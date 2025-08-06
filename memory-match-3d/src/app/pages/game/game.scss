@@ -2,4 +2,37 @@
 
 h1 {
     color: $color-white;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameBoard {
+    height: 60vh;
+    width: 80vw;
+    border-radius: 20px;
+    animation: gameBoardShadow 4s ease-in-out infinite;
+}
+@keyframes gameBoardShadow {
+    0% {
+        box-shadow: 0 0 25px 7px $color-pink, 0 0 50px 15px transparent;
+    }
+    50% {
+        box-shadow: 0 0 30px 10px $color-pink, 0 0 60px 20px transparent;
+    }
+    100% {
+        box-shadow: 0 0 25px 7px $color-pink, 0 0 50px 15px transparent;
+    }
 }
